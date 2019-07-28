@@ -77,77 +77,87 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-IB-hDS">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-IB-hDS">
                                 <rect key="frame" x="5" y="93" width="404" height="764"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4DY-IJ-YOq">
-                                        <rect key="frame" x="0.0" y="0.0" width="404" height="375"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="379.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CtG-sg-HqF">
-                                                <rect key="frame" x="20" y="20" width="240" height="128"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxQ-zu-HZA">
+                                                <rect key="frame" x="0.0" y="19" width="404" height="341"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yxQ-zu-HZA">
-                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                    </imageView>
-                                                </subviews>
-                                            </stackView>
+                                            </imageView>
                                         </subviews>
                                     </scrollView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HYv-4D-tMP">
-                                        <rect key="frame" x="0.0" y="389" width="404" height="375"/>
+                                        <rect key="frame" x="0.0" y="384.5" width="404" height="379.5"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kDm-I2-CQo">
-                                                <rect key="frame" x="20" y="20" width="414" height="189.5"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldM-c6-Pdf">
-                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ty3-rj-Hfh">
-                                                        <rect key="frame" x="0.0" y="20.5" width="414" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-g0-hG6">
-                                                        <rect key="frame" x="0.0" y="41" width="414" height="128"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    </textView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIS-8d-CNl">
-                                                        <rect key="frame" x="0.0" y="169" width="414" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldM-c6-Pdf">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ty3-rj-Hfh">
+                                                <rect key="frame" x="0.0" y="25.5" width="414" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-g0-hG6">
+                                                <rect key="frame" x="0.0" y="54.5" width="414" height="270.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIS-8d-CNl">
+                                                <rect key="frame" x="0.0" y="330" width="414" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="BBd-g0-hG6" secondAttribute="trailing" id="15e-qk-ZKf"/>
+                                            <constraint firstAttribute="trailing" secondItem="ldM-c6-Pdf" secondAttribute="trailing" id="8F6-zs-r8b"/>
+                                            <constraint firstItem="ldM-c6-Pdf" firstAttribute="leading" secondItem="HYv-4D-tMP" secondAttribute="leading" id="8GE-Sa-8dX"/>
+                                            <constraint firstItem="BBd-g0-hG6" firstAttribute="leading" secondItem="HYv-4D-tMP" secondAttribute="leading" id="OA6-ft-zfN"/>
+                                            <constraint firstItem="BBd-g0-hG6" firstAttribute="top" secondItem="ty3-rj-Hfh" secondAttribute="bottom" constant="5" id="RKH-3V-QTY"/>
+                                            <constraint firstItem="ty3-rj-Hfh" firstAttribute="top" secondItem="ldM-c6-Pdf" secondAttribute="bottom" constant="5" id="YSf-Dc-uO9"/>
+                                            <constraint firstItem="BBd-g0-hG6" firstAttribute="centerY" secondItem="HYv-4D-tMP" secondAttribute="centerY" id="YWN-1q-EWe"/>
+                                            <constraint firstItem="WIS-8d-CNl" firstAttribute="top" secondItem="BBd-g0-hG6" secondAttribute="bottom" constant="5" id="azX-XV-21u"/>
+                                            <constraint firstItem="WIS-8d-CNl" firstAttribute="leading" secondItem="HYv-4D-tMP" secondAttribute="leading" id="c1e-dM-iqN"/>
+                                            <constraint firstAttribute="trailing" secondItem="WIS-8d-CNl" secondAttribute="trailing" id="cza-FM-CYe"/>
+                                            <constraint firstItem="ldM-c6-Pdf" firstAttribute="top" secondItem="HYv-4D-tMP" secondAttribute="top" id="i0d-8J-a9P"/>
+                                            <constraint firstItem="ty3-rj-Hfh" firstAttribute="leading" secondItem="HYv-4D-tMP" secondAttribute="leading" id="jfC-yP-siV"/>
+                                            <constraint firstAttribute="trailing" secondItem="ty3-rj-Hfh" secondAttribute="trailing" id="v5Q-0Q-d6q"/>
+                                        </constraints>
                                     </scrollView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="HYv-4D-tMP" firstAttribute="leading" secondItem="fBT-IB-hDS" secondAttribute="leading" id="5Kj-12-wRF"/>
                                     <constraint firstItem="4DY-IJ-YOq" firstAttribute="leading" secondItem="fBT-IB-hDS" secondAttribute="leading" id="88l-bt-pgb"/>
                                     <constraint firstAttribute="bottom" secondItem="HYv-4D-tMP" secondAttribute="bottom" id="Bgw-54-F8d"/>
+                                    <constraint firstItem="4DY-IJ-YOq" firstAttribute="leading" secondItem="fBT-IB-hDS" secondAttribute="leading" id="D7e-R9-eyo"/>
                                     <constraint firstItem="4DY-IJ-YOq" firstAttribute="top" secondItem="fBT-IB-hDS" secondAttribute="top" id="Tv1-gd-IA1"/>
+                                    <constraint firstItem="HYv-4D-tMP" firstAttribute="top" secondItem="4DY-IJ-YOq" secondAttribute="bottom" constant="5" id="VRQ-gs-hCQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="4DY-IJ-YOq" secondAttribute="trailing" id="ZO2-hH-k2i"/>
                                     <constraint firstAttribute="trailing" secondItem="4DY-IJ-YOq" secondAttribute="trailing" id="gOg-mo-1zk"/>
                                     <constraint firstAttribute="trailing" secondItem="HYv-4D-tMP" secondAttribute="trailing" id="hJ8-Kr-iId"/>
+                                    <constraint firstItem="4DY-IJ-YOq" firstAttribute="top" secondItem="fBT-IB-hDS" secondAttribute="top" id="nCt-eH-wJq"/>
                                 </constraints>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="LS2-MK-E4R" firstAttribute="bottom" secondItem="fBT-IB-hDS" secondAttribute="bottom" constant="5" id="KJJ-BE-4ts"/>
-                            <constraint firstItem="fBT-IB-hDS" firstAttribute="leading" secondItem="LS2-MK-E4R" secondAttribute="leading" constant="5" id="PKI-wP-HNU"/>
-                            <constraint firstItem="ldM-c6-Pdf" firstAttribute="width" secondItem="LS2-MK-E4R" secondAttribute="width" id="Tze-qc-pOR"/>
-                            <constraint firstItem="fBT-IB-hDS" firstAttribute="top" secondItem="LS2-MK-E4R" secondAttribute="top" constant="5" id="s9v-pf-h5q"/>
-                            <constraint firstItem="LS2-MK-E4R" firstAttribute="trailing" secondItem="fBT-IB-hDS" secondAttribute="trailing" constant="5" id="zE0-cF-at9"/>
+                            <constraint firstItem="ty3-rj-Hfh" firstAttribute="width" secondItem="LS2-MK-E4R" secondAttribute="width" id="0Tl-dG-ZQ0"/>
+                            <constraint firstItem="fBT-IB-hDS" firstAttribute="leading" secondItem="LS2-MK-E4R" secondAttribute="leading" constant="5" id="3Lk-ip-0e8"/>
+                            <constraint firstItem="LS2-MK-E4R" firstAttribute="trailing" secondItem="fBT-IB-hDS" secondAttribute="trailing" constant="5" id="5uF-L8-Squ"/>
+                            <constraint firstItem="fBT-IB-hDS" firstAttribute="top" secondItem="LS2-MK-E4R" secondAttribute="top" constant="5" id="72K-TP-JvQ"/>
+                            <constraint firstItem="ldM-c6-Pdf" firstAttribute="width" secondItem="LS2-MK-E4R" secondAttribute="width" id="9uu-vI-AQH"/>
+                            <constraint firstItem="LS2-MK-E4R" firstAttribute="bottom" secondItem="fBT-IB-hDS" secondAttribute="bottom" constant="5" id="EF8-ch-ptd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LS2-MK-E4R"/>
                     </view>
