@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		52D81DB722ED8FBB004B8431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DB622ED8FBB004B8431 /* AppDelegate.swift */; };
-		52D81DB922ED8FBB004B8431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DB822ED8FBB004B8431 /* ViewController.swift */; };
+		52D81DB922ED8FBB004B8431 /* BeachListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DB822ED8FBB004B8431 /* BeachListViewController.swift */; };
 		52D81DBC22ED8FBB004B8431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D81DBA22ED8FBB004B8431 /* Main.storyboard */; };
 		52D81DBE22ED8FBC004B8431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D81DBD22ED8FBC004B8431 /* Assets.xcassets */; };
 		52D81DC122ED8FBC004B8431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D81DBF22ED8FBC004B8431 /* LaunchScreen.storyboard */; };
+		52D81DCD22ED9ED1004B8431 /* Beach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DCC22ED9ED1004B8431 /* Beach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52D81DB322ED8FBB004B8431 /* Beaches rating (MVC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaches rating (MVC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D81DB622ED8FBB004B8431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52D81DB822ED8FBB004B8431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52D81DB822ED8FBB004B8431 /* BeachListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachListViewController.swift; sourceTree = "<group>"; };
 		52D81DBB22ED8FBB004B8431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52D81DBD22ED8FBC004B8431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52D81DC022ED8FBC004B8431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52D81DC222ED8FBC004B8431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D81DCC22ED9ED1004B8431 /* Beach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		52D81DB522ED8FBB004B8431 /* Beaches rating (MVC) */ = {
 			isa = PBXGroup;
 			children = (
-				52D81DB622ED8FBB004B8431 /* AppDelegate.swift */,
-				52D81DB822ED8FBB004B8431 /* ViewController.swift */,
-				52D81DBA22ED8FBB004B8431 /* Main.storyboard */,
-				52D81DBD22ED8FBC004B8431 /* Assets.xcassets */,
-				52D81DBF22ED8FBC004B8431 /* LaunchScreen.storyboard */,
-				52D81DC222ED8FBC004B8431 /* Info.plist */,
+				52D81DC822ED9163004B8431 /* Controllers */,
+				52D81DCB22ED9E79004B8431 /* Model */,
+				52D81DCA22ED9272004B8431 /* Supporting files */,
+				52D81DC922ED91A6004B8431 /* Views */,
 			);
 			path = "Beaches rating (MVC)";
+			sourceTree = "<group>";
+		};
+		52D81DC822ED9163004B8431 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52D81DB822ED8FBB004B8431 /* BeachListViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		52D81DC922ED91A6004B8431 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52D81DBA22ED8FBB004B8431 /* Main.storyboard */,
+				52D81DBF22ED8FBC004B8431 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52D81DCA22ED9272004B8431 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				52D81DB622ED8FBB004B8431 /* AppDelegate.swift */,
+				52D81DBD22ED8FBC004B8431 /* Assets.xcassets */,
+				52D81DC222ED8FBC004B8431 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		52D81DCB22ED9E79004B8431 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52D81DCC22ED9ED1004B8431 /* Beach.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52D81DB922ED8FBB004B8431 /* ViewController.swift in Sources */,
+				52D81DB922ED8FBB004B8431 /* BeachListViewController.swift in Sources */,
 				52D81DB722ED8FBB004B8431 /* AppDelegate.swift in Sources */,
+				52D81DCD22ED9ED1004B8431 /* Beach.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5K285D3RL3;
 				INFOPLIST_FILE = "Beaches rating (MVC)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5K285D3RL3;
 				INFOPLIST_FILE = "Beaches rating (MVC)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
