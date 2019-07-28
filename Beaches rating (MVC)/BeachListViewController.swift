@@ -20,6 +20,14 @@ class BeachListViewController: UIViewController {
         super.viewDidLoad()
         tableView.dataSource = self
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "BeachSegue" else { return }
+        guard let selectedPath = tableView.indexPathForSelectedRow else { return }
+        
+        let destination = segue.destination as! BeachViewController
+        destination.beach = beaches[selectedPath.row]
+    }
 
 
 }

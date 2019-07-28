@@ -16,9 +16,18 @@ struct Beach {
     var timestamp: Date
 }
 
+// MARK: - Data Representation
 extension Beach {
     var stars: String {
         return String(repeating: "⭐️", count: rating)
+    }
+    
+    var formatedTimestamp: String {
+        let format = DateFormatter()
+        format.dateStyle = .short
+        format.timeStyle = .short
+        format.locale = Locale.current
+        return format.string(from: timestamp)
     }
 }
 
