@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52CA39D222EE5A40005E6396 /* beachNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52CA39D122EE5A40005E6396 /* beachNotes.txt */; };
+		52CA39D822EE66B9005E6396 /* extensionBeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CA39D722EE66B9005E6396 /* extensionBeach.swift */; };
 		52D81DB722ED8FBB004B8431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DB622ED8FBB004B8431 /* AppDelegate.swift */; };
 		52D81DB922ED8FBB004B8431 /* BeachListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D81DB822ED8FBB004B8431 /* BeachListViewController.swift */; };
 		52D81DBC22ED8FBB004B8431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D81DBA22ED8FBB004B8431 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52CA39D122EE5A40005E6396 /* beachNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = beachNotes.txt; path = ../../../../../../../Downloads/Beaches/beachNotes.txt; sourceTree = "<group>"; };
+		52CA39D722EE66B9005E6396 /* extensionBeach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionBeach.swift; sourceTree = "<group>"; };
 		52D81DB322ED8FBB004B8431 /* Beaches rating (MVC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaches rating (MVC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D81DB622ED8FBB004B8431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D81DB822ED8FBB004B8431 /* BeachListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachListViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				52D81DCC22ED9ED1004B8431 /* Beach.swift */,
+				52CA39D122EE5A40005E6396 /* beachNotes.txt */,
+				52CA39D722EE66B9005E6396 /* extensionBeach.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D81DC122ED8FBC004B8431 /* LaunchScreen.storyboard in Resources */,
+				52CA39D222EE5A40005E6396 /* beachNotes.txt in Resources */,
 				52D81DBE22ED8FBC004B8431 /* Assets.xcassets in Resources */,
 				52D81DBC22ED8FBB004B8431 /* Main.storyboard in Resources */,
 			);
@@ -174,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D81DB922ED8FBB004B8431 /* BeachListViewController.swift in Sources */,
+				52CA39D822EE66B9005E6396 /* extensionBeach.swift in Sources */,
 				52D81DB722ED8FBB004B8431 /* AppDelegate.swift in Sources */,
 				52D81DCF22EDBEE1004B8431 /* BeachViewController.swift in Sources */,
 				52D81DCD22ED9ED1004B8431 /* Beach.swift in Sources */,

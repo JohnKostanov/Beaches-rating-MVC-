@@ -25,6 +25,14 @@ class BeachViewController: UIViewController {
         
     }
     
+//    func readFromFile() {
+//        if let path = Bundle.main.path(forResource: "beachNotes", ofType: "txt") {
+//            if let text = try? String(contentsOfFile: path) {
+//                textArray = text.components(separatedBy: "\n\n")
+//            }
+//        }
+//    }
+
     func updateUI() {
         beachPhoto.image = beach.photo
         beachName.text = beach.name
