@@ -17,6 +17,7 @@ class BeachViewController: UIViewController {
     @IBOutlet var beachTimestamp: UILabel!
     
     var beach: Beach!
+//    var text: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,19 +26,13 @@ class BeachViewController: UIViewController {
         
     }
     
-//    func readFromFile() {
-//        if let path = Bundle.main.path(forResource: "beachNotes", ofType: "txt") {
-//            if let text = try? String(contentsOfFile: path) {
-//                textArray = text.components(separatedBy: "\n\n")
-//            }
-//        }
-//    }
 
     func updateUI() {
         beachPhoto.image = beach.photo
         beachName.text = beach.name
         beachRating.text = beach.stars
         beachNotes.text = beach.notes
+//        beachNotes.text = text
         beachTimestamp.text = beach.formatedTimestamp
     }
 

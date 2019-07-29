@@ -15,10 +15,20 @@ class BeachListViewController: UIViewController {
     
     // Connect model to the controller
     var beaches = Beach.all
+    var textBeachNotes = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
+        readFromFileBeachNotesTxt()
+    }
+    
+    func readFromFileBeachNotesTxt() {
+        if let path = Bundle.main.path(forResource: "beachNotes", ofType: "txt") {
+            if let text = try? String(contentsOfFile: path) {
+                textBeachNotes = text.components(separatedBy: "\n\n")
+            }
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -27,6 +37,7 @@ class BeachListViewController: UIViewController {
         
         let destination = segue.destination as! BeachViewController
         destination.beach = beaches[selectedPath.row]
+        destination.beach.notes = textBeachNotes[selectedPath.row]
     }
 
 

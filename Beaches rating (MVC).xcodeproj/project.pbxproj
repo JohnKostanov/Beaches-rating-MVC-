@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				52D81DCC22ED9ED1004B8431 /* Beach.swift */,
-				52CA39D122EE5A40005E6396 /* beachNotes.txt */,
 				52CA39D722EE66B9005E6396 /* extensionBeach.swift */,
+				52CA39D122EE5A40005E6396 /* beachNotes.txt */,
 			);
 			path = Model;
 			sourceTree = "<group>";
