@@ -30,9 +30,7 @@ extension Beach {
             
             Beach(name: "Ибица", photo: UIImage(named: "10. Ибица")!, rating: 9, notes: String(), timestamp: Date()),
             
-            Beach(name: "Маспаломас", photo: UIImage(named: "11. Маспаломас")!, rating: 6, notes: String(), timestamp: Date()),
-
-            Beach(name: "Майорка", photo: UIImage(named: "12. Майорка")!, rating: 8, notes: String(), timestamp: Date())
+            Beach(name: "Маспаломас", photo: UIImage(named: "11. Маспаломас")!, rating: 6, notes: String(), timestamp: Date())
         ]
     }
 }
