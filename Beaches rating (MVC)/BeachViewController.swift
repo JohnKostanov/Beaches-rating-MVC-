@@ -25,8 +25,6 @@ class BeachViewController: UIViewController {
 
         
     }
-    
-
     func updateUI() {
         beachPhoto.image = beach.photo
         beachName.text = beach.name
