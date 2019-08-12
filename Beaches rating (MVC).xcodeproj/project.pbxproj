@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52CA39D122EE5A40005E6396 /* beachNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = beachNotes.txt; path = ../../../../../../../Downloads/Beaches/beachNotes.txt; sourceTree = "<group>"; };
+		52CA39D122EE5A40005E6396 /* beachNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beachNotes.txt; sourceTree = "<group>"; };
 		52CA39D722EE66B9005E6396 /* extensionBeach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionBeach.swift; sourceTree = "<group>"; };
 		52D81DB322ED8FBB004B8431 /* Beaches rating (MVC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beaches rating (MVC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D81DB622ED8FBB004B8431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
